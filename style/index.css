@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+main {
+    text-align: center;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid red;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.about-class {
+    margin-top: 50px;
+}
+
+.about-class-article p {
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.about-team {
+    width: 700px;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.cohorts-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.info-card img {
+    width: 200px;
+    height: 200px;
+}
