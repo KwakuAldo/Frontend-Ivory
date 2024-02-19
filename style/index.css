@@ -101,7 +101,7 @@ main {
 /*Screens 480px and smaller (mainly phones)*/
 @media only screen and (max-width: 480px) {
     body {
-        width: 300px;
+        width: 100%;
     }
 
     .nav-bar ul {
