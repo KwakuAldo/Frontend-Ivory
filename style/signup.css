@@ -97,3 +97,22 @@ form {
         width: 500px;
     }
 }
+
+/*Screens 480px and smaller (mainly phones)*/
+@media only screen and (max-width: 480px) {
+    body {
+        width: 300px;
+    }
+
+    main {
+        align-items: normal;
+    }
+
+    .form-input {
+        width: 280px;
+    }
+
+    .btn {
+        width: 300px;
+    }
+}

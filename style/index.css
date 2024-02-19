@@ -69,6 +69,8 @@ main {
     height: 200px;
 }
 
+
+/*Screens 768px and smaller (mainly tablets)*/
 @media only screen and (max-width: 768px) {
     body {
         width: 500px;
@@ -85,6 +87,34 @@ main {
 
     .about-team {
         width: 300px;
+        margin-top: 50px;
+        margin: 0 auto;
+    }
+
+    .cohorts-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+/*Screens 480px and smaller (mainly phones)*/
+@media only screen and (max-width: 480px) {
+    body {
+        width: 300px;
+    }
+
+    .nav-bar ul {
+        width: 110px;
+    }
+
+    .about-class-article p {
+        margin-top: 0;
+        padding: 20px;
+    }
+
+    .about-team {
+        width: 200px;
         margin-top: 50px;
         margin: 0 auto;
     }
