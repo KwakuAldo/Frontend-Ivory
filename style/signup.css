@@ -12,6 +12,12 @@ body {
     margin: 0 auto;
 }
 
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -20,6 +26,7 @@ main {
 
 h1 {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 form {
@@ -29,4 +36,51 @@ form {
 
 .form-input {
     width: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    line-height: 2;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.drop-down {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 2;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 322px;
+    border: 1px solid;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px 0;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.form-label {
+    margin-bottom: 10px;
+}
+
+.gender-select {
+    margin-bottom: 15px;
+}
+
+.gender-select p {
+    margin-bottom: 10px;
+}
+
+.gender-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gender-wrapper input {
+    margin-left: -40px;
 }
