@@ -68,3 +68,30 @@ main {
     width: 200px;
     height: 200px;
 }
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 500px;
+    }
+
+    .nav-bar ul {
+        width: 110px;
+    }
+
+    .about-class-article p {
+        margin-top: 0;
+        padding: 40px;
+    }
+
+    .about-team {
+        width: 300px;
+        margin-top: 50px;
+        margin: 0 auto;
+    }
+
+    .cohorts-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

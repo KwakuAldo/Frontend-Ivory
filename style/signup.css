@@ -90,3 +90,10 @@ form {
 .gender-wrapper input {
     margin-left: -40px;
 }
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 500px;
+    }
+}
