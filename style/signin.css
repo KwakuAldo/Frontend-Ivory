@@ -85,11 +85,11 @@ main {
 /*Screens 480px and smaller (mainly phones)*/
 @media only screen and (max-width: 480px) {
     body {
-        width: 300px;
+        width: 100%;
     }
 
     main {
-        align-items: normal;
+        align-items: center;
     }
 
     .form-input {
@@ -99,3 +99,4 @@ main {
     .btn {
         width: 300px;
     }
+}
