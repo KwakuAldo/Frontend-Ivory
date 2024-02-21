@@ -46,7 +46,7 @@ main {
 
 .form-input {
     width: 300px;
-    border: 1px solid;
+    border: 1px solid #991347;
     border-radius: 10px;
     line-height: 2;
     margin-bottom: 15px;
@@ -56,7 +56,7 @@ main {
 
 .btn {
     width: 322px;
-    border: 1px solid;
+    border: 1px solid #991347;
     border-radius: 10px;
     height: 50px;
     margin: 10px 0;
