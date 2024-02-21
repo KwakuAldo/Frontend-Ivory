@@ -3,13 +3,24 @@
     padding: 0;
 }
 
-a {
-    text-decoration: none;
+body {
+    background: #991347;
+    color: #F2E600;
 }
 
-body {
-    width: 800px;
-    margin: 0 auto;
+a {
+    text-decoration: none;
+    color: #F2E600;
+}
+
+.nav-bar a {
+    display: block;
+    border: 1px solid;
+    width: 50px;
+    text-align: center;
+    padding: 5px 10px;
+    background: #F2E600;
+    color: #991347;
 }
 
 .nav-bar {
@@ -55,12 +66,13 @@ main {
 }
 
 .btn:hover {
-    background-color: black;
-    color: white;
+    background-color: #F2E600;
+    color: #991347;
 }
 
 .text-center {
     text-align: center;
+    color: black;
 }
 
 

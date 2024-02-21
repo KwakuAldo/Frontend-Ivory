@@ -5,11 +5,24 @@
 
 a {
     text-decoration: none;
+    color: #F2E600;
+}
+
+.nav-bar a {
+    display: block;
+    border: 1px solid;
+    width: 50px;
+    text-align: center;
+    padding: 5px 10px;
+    background: #F2E600;
+    color: #991347;
 }
 
 body {
     width: 800px;
     margin: 0 auto;
+    background: #991347;
+    color: #F2E600;
 }
 
 .nav-bar {
@@ -65,8 +78,8 @@ form {
 }
 
 .btn:hover {
-    background-color: black;
-    color: white;
+    background-color: #F2E600;
+    color: #991347;
 }
 
 .form-label {
@@ -93,6 +106,7 @@ form {
 
 .text-center {
     text-align: center;
+    color: black;
 }
 
 

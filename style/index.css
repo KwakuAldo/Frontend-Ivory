@@ -7,22 +7,36 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    font-size: 18px;
+    background: ;
+    color: #F2E600;
+}
+
 body {
     width: 800px;
     margin: 0 auto;
-    border: 2px solid red;
+    background: #991347;
+}
+
+h1, h2, h3 {
+    color: #F2E600;
 }
 
 main {
     text-align: center;
-    align-items: center;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 2px solid red;
+    background: #F2E600;
+    color: #991347;
+}
+
+.nav-bar a {
+    color: #991347;
 }
 
 .nav-bar ul {
