@@ -19,7 +19,7 @@ body {
     background: #991347;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: #F2E600;
 }
 
@@ -71,11 +71,19 @@ main {
 .info-card {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 5px;
     height: 300px;
     margin: 10px;
     padding: 10px;
     align-items: center;
+}
+
+.info-card a:hover {
+    display: block;
+    background: #991347;
+    width: 100%;
 }
 
 .info-card img {
