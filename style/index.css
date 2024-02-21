@@ -17,6 +17,7 @@ body {
     width: 800px;
     margin: 0 auto;
     background: #991347;
+    font-family: "cinzel", sans-serif ;
 }
 
 h1, h2 {
@@ -42,7 +43,7 @@ main {
 .nav-bar ul {
     display: flex;
     list-style: none;
-    width: 130px;
+    width: 150px;
     justify-content: space-between;
 }
 
@@ -72,7 +73,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #ffffff;
+    background: #F2E600;
     border-radius: 5px;
     height: 300px;
     margin: 10px;
@@ -99,7 +100,7 @@ main {
     }
 
     .nav-bar ul {
-        width: 110px;
+        width: 140px;
     }
 
     .about-class-article p {
@@ -127,7 +128,7 @@ main {
     }
 
     .nav-bar ul {
-        width: 110px;
+        width: 135px;
     }
 
     .about-class-article p {
